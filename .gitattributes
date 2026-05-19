@@ -1,5 +1,0 @@
-*.visnir filter=lfs diff=lfs merge=lfs -text
-*.hdr filter=lfs diff=lfs merge=lfs -text
-*.bil filter=lfs diff=lfs merge=lfs -text
-*.bsq filter=lfs diff=lfs merge=lfs -text
-*.bip filter=lfs diff=lfs merge=lfs -text
