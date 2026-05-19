@@ -9,6 +9,7 @@ To overcome the inherent environmental data scarcity paradox associated with phy
 
 ## Core Technical Features
 **Programmatic Dataset Harmonization:** Automated relational one-to-one inner join utilizing the OSSL standardized primary key (`id.layer_uuid_txt`) to perfectly intersect continuous Vis-NIR-SWIR spectral bands (400–2500 nm) with wet-chemistry ground truth labels.
+
 **Physics-Informed Augmentation (Digital Spiking Engine):** Simulates trace contamination profiles at an absorption scaling factor of $\alpha = 0.1$ (10% signal power) embedded under an explicitly injected $\sigma = 0.05$ (5% stochastic noise) boundary layer to replicate chaotic real-world sensor drift.
 
 **Custom 6-Head Multi-Task Topology:**
